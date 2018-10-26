@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="TP3" company="" webLink="" view-date="2018-10-27" view-index="0" gantt-divider-location="533" resource-divider-location="300" version="2.8.9" locale="fr_CA">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="389" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="65" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="395" name="Sprint 1" color="#8cb6ce" meeting="false" start="2018-10-05" duration="26" complete="0" thirdDate="2018-09-27" thirdDate-constraint="0" expand="true">
+            <task id="460" name="Prototypage" meeting="false" start="2018-10-05" duration="10" complete="0" expand="true">
+                <task id="461" name="Scéance de remue-méninge" color="#8cb6ce" meeting="false" start="2018-10-05" duration="2" complete="0" thirdDate="2018-09-28" thirdDate-constraint="0" expand="true">
+                    <depend id="462" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="462" name="Création du prototype alpha" color="#8cb6ce" meeting="false" start="2018-10-09" duration="3" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true">
+                    <depend id="463" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="463" name="Évaluation du prototype alpha" color="#8cb6ce" meeting="false" start="2018-10-12" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true">
+                    <depend id="464" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="464" name="Création du prototype beta" color="#8cb6ce" meeting="false" start="2018-10-15" duration="3" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true">
+                    <depend id="465" type="2" difference="0" hardness="Strong"/>
+                    <depend id="642" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="642" name="Jalon 0: Pototype fonctionnel" color="#8cb6ce" meeting="true" start="2018-10-18" duration="0" complete="0" thirdDate="2018-10-01" thirdDate-constraint="0" expand="true"/>
+                <task id="465" name="Évaluation du prototype beta" color="#8cb6ce" meeting="false" start="2018-10-18" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true">
+                    <depend id="405" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="405" name="Priorisation des tâches sprint 1" color="#8cb6ce" meeting="false" start="2018-10-19" duration="1" complete="0" thirdDate="2018-10-12" thirdDate-constraint="0" expand="true">
+                <depend id="406" type="2" difference="0" hardness="Strong"/>
+                <depend id="407" type="2" difference="0" hardness="Strong"/>
+                <depend id="414" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="406" name="Implémenter les tests unitaires (TDD) sprint 1" color="#8cb6ce" meeting="false" start="2018-10-22" duration="13" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+            <task id="407" name="Implémentation du code source sprint 1" color="#8cb6ce" meeting="false" start="2018-10-22" duration="13" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true">
+                <depend id="408" type="2" difference="0" hardness="Strong"/>
+                <depend id="409" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="408" name="Intégrer le code sprint 1" color="#8cb6ce" meeting="false" start="2018-11-08" duration="1" complete="0" thirdDate="2018-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="418" type="2" difference="0" hardness="Strong"/>
+                <depend id="603" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="409" name="Extraire l'achritecture sprint 1" color="#8cb6ce" meeting="false" start="2018-11-08" duration="1" complete="0" thirdDate="2018-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="584" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="414" name="Planification des tests sprint 1" color="#8cb6ce" meeting="false" start="2018-10-22" duration="2" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+                <depend id="415" type="2" difference="0" hardness="Strong"/>
+                <depend id="416" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="415" name="Rédiger les critères d'évalutation sprint 1" color="#8cb6ce" meeting="false" start="2018-10-24" duration="7" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                <depend id="418" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="416" name="Rédiger les cas de tests sprint 1" color="#8cb6ce" meeting="false" start="2018-10-24" duration="8" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                <depend id="418" type="2" difference="0" hardness="Strong"/>
+                <depend id="599" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="599" name="Exécuter les cas de tests sprint 1" color="#8cb6ce" meeting="false" start="2018-11-05" duration="4" complete="0" thirdDate="2018-10-30" thirdDate-constraint="0" expand="true">
+                <depend id="603" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="418" name="Évaluation sprint 1" color="#8cb6ce" meeting="false" start="2018-11-09" duration="1" complete="0" thirdDate="2018-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="430" type="2" difference="0" hardness="Strong"/>
+                <depend id="584" type="2" difference="0" hardness="Strong"/>
+                <depend id="603" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="584" name="Jalon 1:Product backlog et document d'architecture" color="#8cb6ce" meeting="true" start="2018-11-12" duration="0" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                <depend id="430" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="603" name="Jalon 2:Premier build" color="#8cb6ce" meeting="true" start="2018-11-12" duration="0" complete="0" thirdDate="2018-11-05" thirdDate-constraint="0" expand="true">
+                <depend id="430" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="429" name="Sprint 2" meeting="false" start="2018-11-12" duration="17" complete="0" expand="true">
+            <task id="430" name="Priorisation des tâches sprint 2" color="#8cb6ce" meeting="false" start="2018-11-12" duration="1" complete="0" thirdDate="2018-10-12" thirdDate-constraint="0" expand="true">
+                <depend id="432" type="2" difference="0" hardness="Strong"/>
+                <depend id="433" type="2" difference="0" hardness="Strong"/>
+                <depend id="436" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="432" name="Implémenter les tests unitaires (TDD) sprint 2" color="#8cb6ce" meeting="false" start="2018-11-13" duration="12" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true"/>
+            <task id="433" name="Implémentation du code source sprint 2" color="#8cb6ce" meeting="false" start="2018-11-13" duration="12" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true">
+                <depend id="434" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="434" name="Intégrer le code sprint 2" color="#8cb6ce" meeting="false" start="2018-11-29" duration="3" complete="0" thirdDate="2018-11-28" thirdDate-constraint="0" expand="true">
+                <depend id="440" type="2" difference="0" hardness="Strong"/>
+                <depend id="596" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="436" name="Planification des tests sprint 2" color="#8cb6ce" meeting="false" start="2018-11-13" duration="3" complete="0" thirdDate="2018-10-25" thirdDate-constraint="0" expand="true">
+                <depend id="437" type="2" difference="0" hardness="Strong"/>
+                <depend id="438" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="437" name="Rédiger les critères d'évalutation sprint 2" color="#8cb6ce" meeting="false" start="2018-11-16" duration="6" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                <depend id="440" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="438" name="Rédiger les cas de tests sprint 2" color="#8cb6ce" meeting="false" start="2018-11-16" duration="7" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                <depend id="439" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="439" name="Exécuter les cas de tests sprint 2" color="#8cb6ce" meeting="false" start="2018-11-27" duration="5" complete="0" thirdDate="2018-10-30" thirdDate-constraint="0" expand="true">
+                <depend id="440" type="2" difference="0" hardness="Strong"/>
+                <depend id="596" type="2" difference="0" hardness="Strong"/>
+                <depend id="638" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="440" name="Évaluation sprint 2" color="#8cb6ce" meeting="false" start="2018-12-04" duration="1" complete="0" thirdDate="2018-11-02" thirdDate-constraint="0" expand="true"/>
+            <task id="596" name="Jalon 3: Build final" color="#8cb6ce" meeting="true" start="2018-12-04" duration="0" complete="0" thirdDate="2018-10-26" thirdDate-constraint="0" expand="true"/>
+            <task id="638" name="Jalon 4: Plan de tests" color="#8cb6ce" meeting="true" start="2018-12-04" duration="0" complete="0" thirdDate="2018-10-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="1" name="Alice" function="5" contacts="" phone=""/>
+        <resource id="2" name="Bob" function="2" contacts="" phone=""/>
+        <resource id="3" name="Carlos" function="2" contacts="" phone=""/>
+        <resource id="4" name="Dan" function="2" contacts="" phone=""/>
+        <resource id="5" name="Ève " function="7" contacts="" phone=""/>
+        <resource id="6" name="Farah" function="7" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="461" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="462" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="463" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="464" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="465" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="405" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="406" resource-id="1" function="Default:1" responsible="true" load="30.0"/>
+        <allocation task-id="407" resource-id="1" function="2" responsible="true" load="70.0"/>
+        <allocation task-id="408" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="418" resource-id="1" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="430" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="432" resource-id="1" function="2" responsible="true" load="30.0"/>
+        <allocation task-id="433" resource-id="1" function="5" responsible="true" load="70.0"/>
+        <allocation task-id="434" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="603" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="596" resource-id="1" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="461" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="462" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="463" resource-id="2" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="464" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="465" resource-id="2" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="406" resource-id="2" function="2" responsible="false" load="30.0"/>
+        <allocation task-id="407" resource-id="2" function="2" responsible="false" load="70.0"/>
+        <allocation task-id="408" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="432" resource-id="2" function="2" responsible="false" load="30.0"/>
+        <allocation task-id="433" resource-id="2" function="2" responsible="false" load="70.0"/>
+        <allocation task-id="434" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="603" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="596" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="461" resource-id="3" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="462" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="463" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="464" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="465" resource-id="3" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="406" resource-id="3" function="2" responsible="false" load="30.0"/>
+        <allocation task-id="407" resource-id="3" function="2" responsible="false" load="70.0"/>
+        <allocation task-id="408" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="432" resource-id="3" function="2" responsible="false" load="30.0"/>
+        <allocation task-id="433" resource-id="3" function="2" responsible="false" load="70.0"/>
+        <allocation task-id="434" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="603" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="596" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="461" resource-id="4" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="462" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="463" resource-id="4" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="464" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="465" resource-id="4" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="406" resource-id="4" function="2" responsible="false" load="30.0"/>
+        <allocation task-id="407" resource-id="4" function="2" responsible="false" load="70.0"/>
+        <allocation task-id="409" resource-id="4" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="432" resource-id="4" function="2" responsible="false" load="30.0"/>
+        <allocation task-id="433" resource-id="4" function="2" responsible="false" load="70.0"/>
+        <allocation task-id="603" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="434" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="596" resource-id="4" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="461" resource-id="5" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="462" resource-id="5" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="463" resource-id="5" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="464" resource-id="5" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="465" resource-id="5" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="414" resource-id="5" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="415" resource-id="5" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="418" resource-id="5" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="436" resource-id="5" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="437" resource-id="5" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="439" resource-id="5" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="440" resource-id="5" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="599" resource-id="5" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="603" resource-id="5" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="461" resource-id="6" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="462" resource-id="6" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="463" resource-id="6" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="464" resource-id="6" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="465" resource-id="6" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="414" resource-id="6" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="416" resource-id="6" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="418" resource-id="6" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="436" resource-id="6" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="438" resource-id="6" function="7" responsible="true" load="100.0"/>
+        <allocation task-id="439" resource-id="6" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="440" resource-id="6" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="599" resource-id="6" function="7" responsible="false" load="100.0"/>
+        <allocation task-id="603" resource-id="6" function="7" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Spécialiste en remue-méninge"/>
+        <role id="2" name="Implémenteur"/>
+        <role id="3" name="Analyste"/>
+        <role id="4" name="Évaluateur"/>
+        <role id="5" name="Gestionnaire de projet"/>
+        <role id="6" name="Desinger"/>
+        <role id="7" name="Testeur"/>
+    </roles>
+</project>
