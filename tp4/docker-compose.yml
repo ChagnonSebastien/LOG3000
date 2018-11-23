@@ -1,0 +1,22 @@
+version: '2'
+services:
+  api:
+    build: api
+    links:
+      - db
+    ports:
+      - "3001:3001"
+  lb:
+    image: dockercloud/haproxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "80:80"
+    links:
+      - api
+  db:
+    image: mongo
+    volumes:
+      - /data/mongodb/db:/data/db
+    ports:
+      - "27017:27017"
